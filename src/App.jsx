@@ -1,8 +1,7 @@
 import React from 'react';
+import appIcon from './assets/app_icon.png';
 
 function App() {
-  // Placeholder brand icon as SVG data URI - replace with actual AppIcon (1).png when available
-  const brandImage = "data:image/svg+xml,%3Csvg width='512' height='512' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='gradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23e8d5c4;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23a89080;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='100' fill='url(%23gradient)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='200' font-weight='300' fill='%234a4036' text-anchor='middle' dy='.3em'%3EMF%3C/text%3E%3C/svg%3E";
   return (
     <div className="app">
       {/* Hero Section */}
@@ -14,7 +13,7 @@ function App() {
             discover your inner anchor and let life's noise drift away naturally.
           </p>
           <div className="brand-image-container">
-            <img src={brandImage} alt="MiFido App Icon" className="brand-image" />
+            <img src={appIcon} alt="MiFido App Icon" className="brand-image" />
           </div>
           <a 
             href="https://apps.apple.com/us/app/mifido-trust-your-anchor/id6756627879" 
